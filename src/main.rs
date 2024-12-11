@@ -1,3 +1,7 @@
+mod challenges;
+
 fn main() {
-    println!("Hello, world!");
+
+    let text = challenges::c1::challenge::hello_world();
+    println!("{}", text);
 }
